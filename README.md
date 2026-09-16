@@ -1,5 +1,7 @@
 # Windows-Photo-Viewer-Always-Fit-Height-Patch
 
+* I've made sure that both installing and uninstalling scripts work as expected (tested on Windows 10 x64 22H2). That said, patching of operating system files is a subject to calamity which _can_ go wrong. Therefore, use at your own risk!
+
 By default, the classic Windows Photo Viewer opens an image in its 1:1 scale when its size is _smaller_ than the window's preview area, or fits the image to it if it's larger. When viewing small pixel art graphics, the user requires to manually zoom-in to each and every image when navigating through them, making the process frustrating.
 
 This small patch will make it automatically zoom-in to make the image fit the preview area, based on the current window's height.
